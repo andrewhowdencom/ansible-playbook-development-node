@@ -1,0 +1,6 @@
+[submodule "roles/node-exporter"]
+	path = roles/node-exporter
+	url = https://github.com/littlemanco/ansible-role-node-exporter
+[submodule "roles/motd"]
+	path = roles/motd
+	url = https://github.com/littlemanco/ansible-role-motd

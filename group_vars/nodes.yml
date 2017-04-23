@@ -1,0 +1,4 @@
+---
+motd_urls:
+  - message: "Development node is managed by ansible. See:"
+    url: "https://github.com/andrewhowdencom/ansible-playbook-development-node.git"

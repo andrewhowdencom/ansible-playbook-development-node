@@ -1,0 +1,11 @@
+---
+# This is the "Master Playbook"; it implements the Satis build.
+# See http://docs.ansible.com/ansible/playbooks_best_practices.html#directory-layout for a description of the
+# "Master Playbook"
+- name: "development-node"
+  hosts: all
+  become: true
+  become_user: "root"
+  roles:
+    - "motd"
+    - "node-exporter"
