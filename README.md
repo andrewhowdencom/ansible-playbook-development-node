@@ -38,8 +38,9 @@ It's expected this playbook will be "installed" by cloning it somewhere, and run
 itself every so often to ensure the state is as it expects, and propagate upgrades as they're required.
 
 ```
-$ git clone https://github.com:andrewhowdencom/ansible-playbook-development-node.git /opt/
-$ ansible-playbook --inventory=localhost --extra-vars="release_track=stable" development-node.yml
+$ git clone https://github.com/andrewhowdencom/ansible-playbook-development-node.git /opt/ansible/
+$ cd /opt/ansible/
+$ ansible-playbook --inventory=inventory --extra-vars="release_track=stable" development-node.yml
 ```
 
 ## Additional Variables
