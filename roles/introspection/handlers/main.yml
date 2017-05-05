@@ -2,6 +2,6 @@
 - name: "enable prometheus"
   systemd:
     name: "prometheus"
-    state: "started"
+    state: "restarted"
     enabled: "yes"
     daemon_reload: "yes"
