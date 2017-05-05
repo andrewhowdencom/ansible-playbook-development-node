@@ -1,0 +1,6 @@
+---
+- name: "Install introspection packages"
+  package:
+    name: "prometheus"
+    state: "present"
+  notify: "enable prometheus"

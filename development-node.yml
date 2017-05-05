@@ -9,3 +9,4 @@
   roles:
     - "motd"
     - "node-exporter"
+    - "introspection"
