@@ -11,3 +11,12 @@
     regexp: "^ARGS="
     line: "ARGS=\"-web.listen-address '127.0.0.1:9090'\""
   notify: "enable prometheus"
+
+- name: "Update the Prometheus configuration"
+  template:
+    src: "etc/prometheus/prometheus.yml"
+    dest: "/etc/prometheus/prometheus.yml"
+    owner: "root"
+    group: "root"
+    mode: "0644"
+  notify: "enable prometheus"
