@@ -1,0 +1,5 @@
+---
+- name: "Install the scdaemon package"
+  package:
+    name: "scdaemon"
+    state: "present"

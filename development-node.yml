@@ -8,3 +8,4 @@
   become_user: "root"
   roles:
     - "cmprescott.chrome"
+    - "development-node.smart-card"
