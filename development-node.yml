@@ -7,6 +7,4 @@
   become: true
   become_user: "root"
   roles:
-    - "motd"
-    - "node-exporter"
-    - "introspection"
+    - "cmprescott.chrome"
