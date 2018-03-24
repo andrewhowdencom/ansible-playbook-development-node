@@ -7,5 +7,5 @@
   become: true
   become_user: "root"
   roles:
+    - "development-node.yubikey"
     - "cmprescott.chrome"
-    - "development-node.smart-card"

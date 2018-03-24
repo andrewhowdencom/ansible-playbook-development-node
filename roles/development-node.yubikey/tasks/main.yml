@@ -1,0 +1,8 @@
+---
+- name: "Install the required Yubikey smart card packages"
+  package:
+    name: "{{ item }}"
+    state: "present"
+  with_items:
+    - "scdaemon"
+    - "libu2f-host0"
