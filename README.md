@@ -3,6 +3,10 @@
 Some work to create my dev machine because I'm lazy. I did this once before, but it was hard, and I haven't used it
 as much as I should.
 
+## Scope
+
+This is designed to manage **system wide changes**. Anything user specific or transient is the domain of the user.
+
 ## Requirements
 
 This playbook makes the presumption that the underlying machine is Debian Stretch.
