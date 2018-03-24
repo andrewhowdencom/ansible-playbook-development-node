@@ -2,3 +2,6 @@
 - src: "https://github.com/cmprescott/ansible-role-chrome.git"
   version: "4e936be"
   name: "cmprescott.chrome"
+- src: "https://github.com/pixelart/ansible-role-phpstorm.git"
+  version: "5e0c799"
+  name: "pixelart.phpstorm"

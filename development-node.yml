@@ -9,3 +9,4 @@
   roles:
     - "development-node.yubikey"
     - "cmprescott.chrome"
+    - "pixelart.phpstorm"

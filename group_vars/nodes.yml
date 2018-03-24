@@ -3,3 +3,6 @@
 motd_urls:
   - message: "Development node is managed by ansible. See:"
     url: "https://github.com/andrewhowdencom/ansible-playbook-development-node.git"
+
+# pixelart.phpstorm
+phpstorm_version: "2017.3.6"
