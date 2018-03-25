@@ -7,7 +7,12 @@
   become: true
   become_user: "root"
   roles:
+    # Visibility
     - "littlemanco.prometheus"
+    # Identity
     - "development-node.yubikey"
+    # Virtualisation
+    - "geerlingguy.docker"
+    # Development Tooling
     - "cmprescott.chrome"
     - "pixelart.phpstorm"

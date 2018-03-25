@@ -1,4 +1,7 @@
 ---
+- src: "https://github.com/geerlingguy/ansible-role-docker.git"
+  version: "dd0c6e0"
+  name: "geerlingguy.docker"
 - src: "https://github.com/cmprescott/ansible-role-chrome.git"
   version: "4e936be"
   name: "cmprescott.chrome"
