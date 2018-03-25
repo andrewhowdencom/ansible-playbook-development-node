@@ -5,3 +5,6 @@
 - src: "https://github.com/pixelart/ansible-role-phpstorm.git"
   version: "5e0c799"
   name: "pixelart.phpstorm"
+- src: "https://github.com/littlemanco/ansible-role-prometheus"
+  version: "f5dbc39"
+  name: "littlemanco.prometheus"

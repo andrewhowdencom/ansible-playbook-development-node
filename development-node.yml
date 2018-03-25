@@ -7,6 +7,7 @@
   become: true
   become_user: "root"
   roles:
+    - "littlemanco.prometheus"
     - "development-node.yubikey"
     - "cmprescott.chrome"
     - "pixelart.phpstorm"
