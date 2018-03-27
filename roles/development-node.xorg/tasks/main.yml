@@ -1,0 +1,6 @@
+--- 
+# Modify properties about the X Window manager
+- name: "Install the xclip tool"
+  package:
+    name: "xclip"
+    state: "present"

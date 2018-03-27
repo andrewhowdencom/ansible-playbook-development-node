@@ -13,6 +13,8 @@
     - "development-node.yubikey"
     # Virtualisation
     - "geerlingguy.docker"
+    # Display
+    - name: "development-node.xorg"
     # Development Tooling
     - "cmprescott.chrome"
     - "pixelart.phpstorm"
