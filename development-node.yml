@@ -16,5 +16,6 @@
     # Display
     - name: "development-node.xorg"
     # Development Tooling
+    - "andrewrothstein.bazel"
     - "cmprescott.chrome"
     - "pixelart.phpstorm"
