@@ -9,8 +9,10 @@
   roles:
     # Visibility
     - "littlemanco.prometheus"
+    - "juju4.osquery"
     # Identity
     - "development-node.yubikey"
+    - "development-node.password-tools"
     # Virtualisation
     - "geerlingguy.docker"
     # Display

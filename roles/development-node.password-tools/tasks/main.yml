@@ -1,0 +1,5 @@
+---
+- name: "Install password tools"
+  package:
+    name: "pwgen"
+    state: "present"
