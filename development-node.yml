@@ -18,6 +18,7 @@
     # Display
     - name: "development-node.xorg"
     # Development Tooling
+    - "development-node.version-control"
     - "andrewrothstein.bazel"
     - "cmprescott.chrome"
     - "pixelart.phpstorm"
