@@ -17,3 +17,6 @@
 - src: "https://github.com/andrewrothstein/ansible-bazel.git"
   version: "490b808"
   name: "andrewrothstein.bazel"
+- src: "https://github.com/juju4/ansible-osquery.git"
+  version: "e370237"
+  name: "juju4.osquery"
