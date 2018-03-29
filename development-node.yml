@@ -19,6 +19,10 @@
     - "development-node.network-tools"
     # Display
     - "development-node.xorg"
+    # Language Support
+    - "geerlingguy.php"
+    # Package Management
+    - "geerlingguy.composer"
     # Development Tooling
     - "development-node.version-control"
     - "andrewrothstein.bazel"
