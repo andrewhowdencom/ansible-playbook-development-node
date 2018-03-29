@@ -15,8 +15,10 @@
     - "development-node.password-tools"
     # Virtualisation
     - "geerlingguy.docker"
+    # Network Analysis
+    - "development-node.network-tools"
     # Display
-    - name: "development-node.xorg"
+    - "development-node.xorg"
     # Development Tooling
     - "development-node.version-control"
     - "andrewrothstein.bazel"
