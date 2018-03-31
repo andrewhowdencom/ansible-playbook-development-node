@@ -19,11 +19,13 @@
     - "development-node.network-tools"
     # Display
     - "development-node.xorg"
+    - "development-node.terminal"
     # Language Support
     - "geerlingguy.php"
     # Package Management
     - "geerlingguy.composer"
     # Development Tooling
+    - "development-node.linters"
     - "development-node.version-control"
     - "andrewrothstein.bazel"
     - "cmprescott.chrome"

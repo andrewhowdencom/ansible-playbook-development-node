@@ -1,0 +1,7 @@
+---
+- name: "Add linting tools"
+  package:
+    name: "{{ item }}"
+    state: "present"
+  with_items:
+    - "yamllint"

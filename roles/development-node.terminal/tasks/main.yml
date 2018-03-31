@@ -1,0 +1,5 @@
+---
+- name: "Install the JQ JSON parsing tool"
+  package:
+    name: "jq"
+    state: "present"
