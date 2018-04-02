@@ -4,7 +4,15 @@
     name: "{{ item }}"
     state: "present"
   with_items:
+    # Dumping traffic across the interface
     - "wireshark"
     - "tshark"
     - "pcaputils"
+    - "tcpdump"
+    # DNS
+    - "dnsutils"
+    # ICMP
+    - "mtr"
+    # VPNs
     - "network-manager-l2tp"
+
