@@ -1,0 +1,5 @@
+--- 
+- name: "Install screen recorder"
+  package:
+    name: "simplescreenrecorder"
+    state: "present"

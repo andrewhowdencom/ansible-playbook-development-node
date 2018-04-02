@@ -20,6 +20,8 @@
     # Display
     - "development-node.xorg"
     - "development-node.terminal"
+    # Presentation
+    - "development-node.presentation"
     # Language Support
     - "geerlingguy.php"
     # Package Management
