@@ -21,6 +21,7 @@
     - "development-node.network-tools"
     # Display
     - "development-node.xorg"
+    - "development-node.gnome"
     - "development-node.terminal"
     # Presentation
     - "development-node.presentation"

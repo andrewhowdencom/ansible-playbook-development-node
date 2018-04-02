@@ -1,0 +1,6 @@
+- name: "Install system administration tools"
+  package:
+    name: "{{ item }}"
+    state: "present"
+  with_items:
+    - "network-manager-l2tp-gnome"

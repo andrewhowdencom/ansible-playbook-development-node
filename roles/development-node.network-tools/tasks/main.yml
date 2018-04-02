@@ -7,3 +7,4 @@
     - "wireshark"
     - "tshark"
     - "pcaputils"
+    - "network-manager-l2tp"
