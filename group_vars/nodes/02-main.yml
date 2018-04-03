@@ -1,6 +1,6 @@
 ---
 # geerlingguy.docker
-docker_package: "docker-ce=17.12.1~ce-0~debian"
+docker_package: "docker-ce"
 
 # geerlingguy.php
 php_enable_webserver: false
@@ -12,3 +12,6 @@ motd_urls:
 
 # pixelart.phpstorm
 phpstorm_version: "2017.3.6"
+
+osquery_rsyslog: true
+
