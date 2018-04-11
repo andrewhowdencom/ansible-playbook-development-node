@@ -15,4 +15,5 @@
     - "mtr"
     # VPNs
     - "network-manager-l2tp"
-
+    # Probing
+    - "nmap"
